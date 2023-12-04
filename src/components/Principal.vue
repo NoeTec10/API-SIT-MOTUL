@@ -4,6 +4,7 @@
   import { ref, onMounted, computed } from 'vue';
   import dayjs from 'dayjs';
 import Ingenierias from './Ingenierias.vue';
+import result from './result.vue';
 
   const info = ref({
     periodo: "",
@@ -95,6 +96,9 @@ const diferenciaHoras = computed(()=>{
       <p class="text-sm font-bold ms-8">Estado de la evaluación por ingeniería</p>    
       <Ingenierias></Ingenierias>
       </div>
+
+     
   </div>
+  <result></result>
 </div>
   </template>
