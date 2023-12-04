@@ -53,7 +53,7 @@ const diferenciaHoras = computed(()=>{
 
 <nav class="bg-yellow-600 italic font-serif w-full text-white flex flex-col md:flex-row md:justify-between md:px-2 md:py-2 text-xl">
         <div class="flex justify-center md:gap-4">
-          <img src="Recursos/logo.svg" class="w-10 h-10 " alt="logo">
+          <img src="./logo.svg" class="w-10 h-10 " alt="logo">
             
         </div>
         <div class="flex flex-col md:flex-row text-center md:gap-5">
